@@ -5,6 +5,7 @@ dotenv.config();
 
 const sequelize = new Sequelize("postgres://rinshad:VQUQcwBeJwSKhvjHfznFMxfXR6OmnLjN@dpg-cpq85c4s1f4s73cgehf0-a.oregon-postgres.render.com/bitespeed_7rs7"!,{
   dialect: "postgres",
+  dialectModule: require('pg'),
   dialectOptions: {
     ssl: {
       require: true,
