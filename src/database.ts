@@ -3,7 +3,7 @@ import dotenv from "dotenv";
 
 dotenv.config(); 
 
-const sequelize = new Sequelize("postgres://rinshad:VQUQcwBeJwSKhvjHfznFMxfXR6OmnLjN@dpg-cpq85c4s1f4s73cgehf0-a.oregon-postgres.render.com/bitespeed_7rs7"!,{
+const sequelize = new Sequelize("postgres://default:wd0Y6PBrxnHL@ep-old-morning-a13zws21.ap-southeast-1.aws.neon.tech:5432/verceldb?sslmode=require"!,{
   dialect: "postgres",
   dialectModule: require('pg'),
   dialectOptions: {
